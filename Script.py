@@ -11,7 +11,7 @@ class script(object):
 ┃
 ┣⪼ Cʜᴀɴɴᴇʟ :<a href='https://t.me/kr_botz'>KR ⚠︎ Bᴏᴛᴢ</a>
 ┃
- Sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/+4FN95cDmy4IwZDll'>KR_Sᴜᴘᴘᴏʀᴛ</a>
+┣⪼ Sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/+4FN95cDmy4IwZDll'>KR_Sᴜᴘᴘᴏʀᴛ</a>
 ┃
 ┣⪼ Vᴇʀꜱɪᴏɴ : 1.0.0 [ Bᴇᴛᴀ ]
 ┃
