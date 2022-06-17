@@ -58,13 +58,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ CHΛИИΞL 🔥", url=invite_link.invite_link
+                    "✪ Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ✪", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton("🔁 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔁", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("♻️ Tʀʏ Aɢᴀɪɴ ♻️", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!**",
@@ -76,13 +76,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🎩 Mʏ Fᴀᴛʜᴇʀ', url='https://t.me/MWUpdatez'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/OpusTechz')
+            InlineKeyboardButton('🎩 Mʏ Fᴀᴛʜᴇʀ', url='https://t.me/Lastdrogz'),
+            InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇ', url='https://t.me/kr_botz')
             ],[      
             InlineKeyboardButton('⚙️ Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📚 Aʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🍂 Gᴏ Bᴀᴄᴋ Tᴏ Mᴀɪɴ Mᴇɴᴜ 🍂', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('🍂 Gᴏ Bᴀᴄᴋ Tᴏ Mᴀɪɴ Mᴇɴᴜ 🍂', callback_data='skeditz')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
