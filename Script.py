@@ -5,7 +5,7 @@ class script(object):
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>╭─━━━─[ 𝗔𝗕𝗢𝗨𝗧 𝗠𝗘 ]─━━━─⍟
 ┃
-┣⪼ Mʏ ɴᴀᴍᴇ : {}
+┣⪼ Mʏ ɴᴀᴍᴇ : TAMIL 3D MOVIES
 ┃
 ┣⪼ Oᴡɴᴇʀ : <a href='https://telegram.dog/happy_kid_sk'>Hᴀᴘᴘʏ 🧛‍♂️ Kɪᴅ</a>
 ┃
@@ -276,11 +276,21 @@ This module only works for my admins
 • /unban_user  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code></b>
-<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code></b>
-<b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code></b>
-<b>᚛› 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>
-<b>᚛› 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝙱</b>"""
+    STATUS_TXT = """<b>╭─────❪ 𝗦𝗧𝗔𝗧𝗨𝗦 ❫─────⍟
+│
+├⍟ Tᴏᴛᴀʟ Fɪʟᴇs : <code>{}</code>
+│
+├⍟ Aᴄᴛɪᴠᴇ Uꜱᴇʀꜱ : <code>{}</code>
+│
+├⍟ Tᴏᴛᴀʟ Gʀᴏᴜᴘs : <code>{}</code>
+│
+├⍟ Dɪꜱᴋ Sɪᴢᴇ : <code> 500.42 GB </code>
+│
+├⍟ Dɪꜱᴋ Uꜱᴇᴅ : <code>{}</code>
+│
+├⍟ Fʀᴇᴇ Dɪꜱᴋ : <code>{}</code>
+│
+╰─────❪ @BGM_LinkzZ ❫─────⍟ </b>"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
