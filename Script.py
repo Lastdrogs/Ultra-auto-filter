@@ -1,8 +1,9 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ Mʏ Fʀɪᴇɴᴅ {}
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>『 Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ 』</a> I Aᴍ A Cᴏᴍᴘʟᴇᴛᴇ  AᴜᴛᴏFɪʟᴛᴇʀ + MᴀɴᴜᴀʟFɪʟᴛᴇʀ + FɪʟᴇSʜᴀʀᴇ  ʙᴏᴛ Aʟʟ Yᴏᴜ Hᴀᴠᴇ Tᴏ Dᴏ Is Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ....! 🍂
+Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>『 Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ 』</a> I Aᴍ A Cᴏᴍᴘʟᴇᴛᴇ  AᴜᴛᴏFɪʟᴛᴇʀ + MᴀɴᴜᴀʟFɪʟᴛᴇʀ + FɪʟᴇSʜᴀʀᴇ  ʙᴏᴛ Aʟʟ Yᴏᴜ Hᴀᴠᴇ Tᴏ Dᴏ Is 
+Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ....! 🍂
 
-Tᴏ Usᴇ Mᴇ Iɴ PM Usᴇ Tʜᴇ /connect Cᴏᴍᴍᴀɴᴅ Aɴᴅ Yᴏᴜ Cᴀɴ Mᴏᴅɪғʏ AᴜᴛᴏFɪʟᴛᴇʀ Sᴇᴛᴛɪɴɢs Aɴᴅ Aᴅᴅ Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀs </b>♥️♥️🔥"""
+Tᴏ Usᴇ Mᴇ Iɴ PM Usᴇ Tʜᴇ /connect Cᴏᴍᴍᴀɴᴅ Aɴᴅ Yᴏᴜ Cᴀɴ Mᴏᴅɪғʏ AᴜᴛᴏFɪʟᴛᴇʀ Sᴇᴛᴛɪɴɢs Aɴᴅ Aᴅᴅ Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀs </b>♥️🔥"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>╭─━━━─❪ 𝗔𝗕𝗢𝗨𝗧 𝗠𝗘 ❫─━━━─⍟
