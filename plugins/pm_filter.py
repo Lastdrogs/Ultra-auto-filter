@@ -471,7 +471,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     chat_id=query.from_user.id,
                     file_id=file_id,
                     caption=f_caption,
-                    protect_content=True if ident == "filep" else False 
+                    protect_content=True if ident == "filep" else False,
+                    reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton('🍁 Cʜᴀɴɴᴇʟ', url='https://t.me/BGM_LINKZZ') ]]) 
                 )
                 await query.answer('Check PM, I have sent files in pm', show_alert=True)
         except UserIsBlocked:
@@ -507,7 +508,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             chat_id=query.from_user.id,
             file_id=file_id,
             caption=f_caption,
-            protect_content=True if ident == 'checksubp' else False
+            protect_content=True if ident == 'checksubp' else False,
+            reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton('🍁 Cʜᴀɴɴᴇʟ', url='https://t.me/BGM_LINKZZ') ]])
         )
     elif query.data == "removebg":
         await query.message.edit_text(
