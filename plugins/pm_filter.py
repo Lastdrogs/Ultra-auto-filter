@@ -673,7 +673,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
 
         
-        elif query.data == "border":
+        elif query.data == "skeditz":
         await query.message.edit(
             "**Select Border**",
             reply_markup=InlineKeyboardMarkup(
