@@ -138,6 +138,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
+                    reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton('🍁 Cʜᴀɴɴᴇʟ', url='https://t.me/BGM_LINKZZ') ]])
                     )
             except FloodWait as e:
                 await asyncio.sleep(e.x)
@@ -147,6 +148,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
+                    reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton('🍁 Cʜᴀɴɴᴇʟ', url='https://t.me/BGM_LINKZZ') ]])
                     )
             except Exception as e:
                 logger.warning(e, exc_info=True)
@@ -207,6 +209,7 @@ async def start(client, message):
                 chat_id=message.from_user.id,
                 file_id=file_id,
                 protect_content=True if pre == 'filep' else False,
+                reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton('🍁 Cʜᴀɴɴᴇʟ', url='https://t.me/BGM_LINKZZ') ]])
                 )
             filetype = msg.media
             file = getattr(msg, filetype)
@@ -240,6 +243,7 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
+        reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton('🍁 Cʜᴀɴɴᴇʟ', url='https://t.me/BGM_LINKZZ') ]])
         )
                     
 
