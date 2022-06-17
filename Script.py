@@ -4,9 +4,9 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>『 Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ �
 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ....! 🍂
 
 Tᴏ Usᴇ Mᴇ Iɴ PM Usᴇ Tʜᴇ /connect Cᴏᴍᴍᴀɴᴅ Aɴᴅ Yᴏᴜ Cᴀɴ Mᴏᴅɪғʏ AᴜᴛᴏFɪʟᴛᴇʀ Sᴇᴛᴛɪɴɢs Aɴᴅ Aᴅᴅ Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀs </b>♥️🔥"""
-    START_SK_TXT = """ Hᴇʏ 👋 {} Bᴜᴅᴅʏ 💝
+    START_SK_TXT = """<b>Hᴇʏ 👋 {} Bᴜᴅᴅʏ 💝
 
-Mʏ Nᴀᴍᴇ ɪꜱ  <a href=https://t.me/{}>『 Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ 』</a> ɪ Cᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜ Mᴏᴠɪᴇꜱ Jᴜꜱᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Sᴇᴇ Mʏ Pᴏᴡᴇʀ 💗"""
+Mʏ Nᴀᴍᴇ ɪꜱ  <a href=https://t.me/{}>『 Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ 』</a> ɪ Cᴀɴ Pʀᴏᴠɪᴅᴇ Yᴏᴜ Mᴏᴠɪᴇꜱ Jᴜꜱᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Sᴇᴇ Mʏ Pᴏᴡᴇʀ 💗</b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>╭─━━━─❪ 𝗔𝗕𝗢𝗨𝗧 𝗠𝗘 ❫─━━━─⍟
