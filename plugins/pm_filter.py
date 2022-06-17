@@ -674,15 +674,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         
     elif query.data == "skeditz":
-        await query.message.edit(
-            "**Select Border**",
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [     
-                        InlineKeyboardButton('⚡ Cʟɪᴄᴋ Hᴇʀᴇ Fᴏʀ Mᴏʀᴇ Bᴜᴛᴛᴏɴ ⚡', callback_data='start')
-                    ]
-                ]
-            ), 
+        buttons = [[
+            InlineKeyboardButton('⚡ Cʟɪᴄᴋ Hᴇʀᴇ Fᴏʀ Mᴏʀᴇ Bᴜᴛᴛᴏɴ ⚡', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode='html'
         ) 
 
     elif query.data == "bright":
