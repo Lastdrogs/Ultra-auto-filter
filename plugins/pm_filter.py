@@ -671,6 +671,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ]
             ),
         )
+
+        
+        elif query.data == "border":
+        await query.message.edit(
+            "**Select Border**",
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [     
+                        InlineKeyboardButton('⚡ Cʟɪᴄᴋ Hᴇʀᴇ Fᴏʀ Mᴏʀᴇ Bᴜᴛᴛᴏɴ ⚡', callback_data='start')
+                    ]
+                ]
+            ), 
+        ) 
+
     elif query.data == "bright":
         await bright(client, query.message)
     elif query.data == "mix":
