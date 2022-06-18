@@ -928,7 +928,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ♥️', url='https://t.me/AboutAadhi')
+            InlineKeyboardButton('♥️ DONATION ♥️', callback_data='deploy')
             ],[
             InlineKeyboardButton('⛺ Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('🗑 Cʟᴏsᴇ', callback_data='close_data')
@@ -1248,7 +1248,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.DEPLOY_TXT,
+            text=script.DONATION_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
